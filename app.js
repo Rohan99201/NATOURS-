@@ -1,6 +1,6 @@
 const path = require('path');
 const express = require('express');
-const morgan = require('morgan'); // morgan is logging middleware. That's gonna allow us to see request data in the console
+const morgan = require('morgan'); // morgan is logging middleware. That's gonna allow us to see data in the console
 const rateLimit = require('express-rate-limit');
 const helmet = require('helmet');
 const mongoSanitize = require('express-mongo-sanitize');
